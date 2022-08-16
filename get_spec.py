@@ -231,13 +231,13 @@ json_Interface_info = json.dumps(address_value_all, indent=4, ensure_ascii=False
 print(json_Interface_info)
 
 with open('data.json', 'w', encoding='utf-8') as f:
-    json.dump(json_System, f, ensure_ascii=False, indent=4)
-    json.dump(json_Boot, f, ensure_ascii=False, indent=4)
-    json.dump(json_cpu, f, ensure_ascii=False, indent=4)
-    json.dump(json_Memory, f, ensure_ascii=False, indent=4)
-    json.dump(json_swap_d, f, ensure_ascii=False, indent=4)
-    json.dump(json_disk_info, f, ensure_ascii=False, indent=4)
-    json.dump(json_Interface_info, f, ensure_ascii=False, indent=4)
+    json.dump(System, f, ensure_ascii=False, indent=4)
+    json.dump(Boot, f, ensure_ascii=False, indent=4)
+    json.dump(cpu, f, ensure_ascii=False, indent=4)
+    json.dump(Memory, f, ensure_ascii=False, indent=4)
+    json.dump(swap_d, f, ensure_ascii=False, indent=4)
+    json.dump(disk_info, f, ensure_ascii=False, indent=4)
+    json.dump(address_value_all, f, ensure_ascii=False, indent=4)
 
 
 
